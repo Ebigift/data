@@ -7,7 +7,6 @@
     body{
     font-family: Arial;
     font-size: 24px;
-   
     color: rgb(110, 108, 108);
     }
 
@@ -15,7 +14,6 @@
     text-align: center;
     margin: 40px 10px;
     }
-
 
     h1, span,h2,p{
     text-transform: uppercase;
@@ -62,7 +60,6 @@ h2{
     .date{
     text-transform: uppercase;
     }
-
 
 .max-print{
     font-weight: bold;
