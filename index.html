@@ -4,7 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+    font-family: Arial;
+    font-size: 24px;
+    color: rgb(110, 108, 108);
+    }
+
+    .project-container{
+    text-align: center;
+    margin: 40px 10px;
+    }
+
+    h1, span,h2,p{
+    text-transform: uppercase;
+    }
+
+h2{
+    font-weight: 100;
+}
+  .project-container .form::first-letter{
+    text-transform: capitalize;
+    }
+
+   .get{
+    text-transform: lowercase;
+    font-weight: lighter;
+    }
+
+.data-container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     margin-bottom: 80px;
+    }
+
+    table, th, td{
+    padding: 4px;
+    border: 1px solid rgb(148, 133, 133);
+    border-collapse: collapse;
+    }
+
+    .fwd{
+    text-align: end;
+    text-transform: uppercase;
+    }
+
+    thead{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .date{
+    text-transform: uppercase;
+    }
+
+.max-print{
+    font-weight: bold;
+}
+    .offset td{
+    border: none;
+    text-transform: uppercase;
+    }
+
+    .offset > td:first-child{
+    text-align: start;
+    padding-left: 30px;
+
+    }
+
+    .offset:last-child{
+    text-align: end;
+
+    }
+
+    footer{
+        position: relative;
+
+    }
+
+    footer .personal-data{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 33px;
+    }
+
+    .dot{
+        border: 1px dashed rgb(41, 39, 39);
+        width: 100%;
+        height: 1px;
+        margin-bottom: 10px;
+    }    
+
+    footer .personal-data .names{
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
     <header>
